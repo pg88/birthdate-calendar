@@ -10,4 +10,4 @@ $scope.$on('updateDate',function(event,data){
   $scope.user.birthDate = moment(data).format('YYYY-MM-DD');
 })
 ```
-![myimage-alt-tag](http://s18.postimg.org/f1vbd36vt/birthdate_Preview.png)
+![myimage-alt-tag](https://s24.postimg.org/ye92q04mt/687474703a2f2f7331382e706f7374696d672e6f72672f66.png)
