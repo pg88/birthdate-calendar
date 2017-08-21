@@ -4,6 +4,11 @@ This directive has the neccesary elements for a birthdate picker, a simple input
 
 The only that requires to work fine this directive is adding a $on event on your controller.
 
+### The markup
+
+```<birthdate-calendar  birthdate="user.birthDate"> </birthdate-calendar>```
+
+
 ```js
 $scope.$on('updateDate',function(event,data){
   //handle the data as you need 
